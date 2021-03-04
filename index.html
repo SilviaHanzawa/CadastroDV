@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css ">
+   
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <form action="">
+        <div>
+            <h1>Cadastro DEV </h1>
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome" placeholder="nome completo" required autocomplete="off">
+        </div>
+        <div>
+            <label for="Email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="email" required autocomplete="off">
+            
+            </div>
+      
+        <br>
+        <div>
+            <label for="text">Áreas de Atuação:</label>
+            <select name="desenvolvedor" id="desenvolver">
+                <option value="selected disaled value">Selecione</option>
+                <option value="frontend">Front-end</option>
+                <option value="backend">Back-end</option>
+                <option value="fullstack">Fullstack</option>
+            </select><br>
+           
+            <div>
+                <br>
+                <label for="text">Função: </label>
+                <label for="estagio">
+                <input type="radio" name="estagio" id="estagio" value="estagio" checked>Estágio
+                </label>
+                <label for="junior">
+                    <input type="radio" name="junior" id="junior" value="junior">Júnior
+                </label>
+                <label for="pleno">
+                    <input type="radio" name="pleno" id="pleno" value="pleno">Pleno
+                </label>
+                <label for="senior">
+                    <input type="radio" name="senior" id="senior" value="senior">Sênior
+                </label>
+                <br>
+                <div>
+                    <br>
+                    <label for="text">Tecnologia:</label><br><br>
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="tecnologia2"     id="tecnologia2" value="CSS">
+                    <label for="css">CSS</label>  
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="javascript"> 
+                    <label for="javascript">Javascript</label>
+                    <input type="checkbox" name="tecnologia4" id=""tecnologia4 value="Java">
+                    <label for="java">Java</label>                  
+                    <input type="checkbox" name="outros" id="outros">
+                    <label for="outros">Outros</label>
+                    
+                </div>
+                
+                <div><br>
+                    <label for="text">Conte sua experiência :</label>
+                    <textarea name="experiencia" id="experiencia" cols="30" rows="5"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+                
+        </div>
+          </div>
+        
+        </form>
+</body>
+</html>
